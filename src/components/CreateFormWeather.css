@@ -1,0 +1,70 @@
+.block-form {
+  display: flex;
+  justify-content: center;
+  font-size: 0.5em;
+}
+
+.card {
+  border-right: 2px dashed black;
+  border-left: 2px dashed black;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+.card-description {
+  opacity: 0.6;
+  margin-top: 5px;
+}
+.card img {
+  margin: 5px 0;
+}
+.error-message {
+  font-size: 0.5em;
+}
+.card-today {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+
+  background-color: #f0fff0;
+  border: 1px solid black;
+  box-shadow: 4px 8px 0 white;
+  padding: 20px;
+  color: black;
+  border-radius: 5px;
+  row-gap: 10px;
+  font-size: 24px;
+  min-width: 300px;
+  background: url("../img/1651010168_52-vsegda-pomnim-com-p-oblaka-nad-morem-foto-69.jpg")
+    0 0 / 100% 100% no-repeat;
+}
+.card-today h2:first-child {
+  opacity: 0.6;
+  font-size: 0.5em;
+}
+.card-location {
+  font-weight: 700;
+  line-height: 1;
+  align-self: flex-start;
+}
+.card-location span {
+  display: inline-block;
+  background-color: red;
+  padding: 2px 4px;
+  border-radius: 6px;
+  font-size: 0.5em;
+  vertical-align: top;
+  color: white;
+  font-weight: normal;
+}
+
+.weather-today {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+}
